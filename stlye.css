@@ -35,7 +35,7 @@ p{
 }
 .wrapper{
     text-align: center;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -43,19 +43,28 @@ p{
     display: flex;
     flex-wrap: wrap;
    justify-content: space-between;
+  
+   border-radius: 20px;
 }
 
 .gen-div {
-    border: 1px solid rgba(0,0,0,0.27);
+    /* border: 1px solid rgba(0,0,0,0.27); */
     height: 100px;
-    width: 49.7%;
-    margin: 5px 0px 5px 0px;
+    width: 49%;
+    margin: 5px 5px 15px 0px;
     border-radius: 20px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: #555;
+    
+    box-shadow: 0 0 1px 1px rgba(20,23,28,0.1), 
+                0 3px 1px 0 rgba(20,23,28,0.1);
    
+}
+
+.gen-div:hover {
+    box-shadow: 0 2px 8px 2px rgba(20,23,28,0.15);
 }
 
 .copy-button {
@@ -65,4 +74,12 @@ p{
     background: white;
     box-shadow: 24px 25px 137px -64px rgba(0,0,0,0.67);
     
+}
+
+span {
+    background: rgba(0, 0, 0, 0.4) ;
+    padding: 7px 15px;
+    border-radius: 20px;
+    color: white;
+    font-size: 70%;
 }

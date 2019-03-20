@@ -30,8 +30,8 @@ function randomHexaNumberGenerator(){
 function createDiv (){
     const resultSection = document.querySelector('.result-section')
     
-    if (input.value > 10 || input.value < 0) {
-        alert('Max number is 10')
+    if (input.value > 10 || input.value < 1) {
+        alert('The Min number is 1 and The Max number is 10')
     } else{
 
         
@@ -104,3 +104,4 @@ function removeDivs(){
 }
 
 restart.addEventListener('click', removeDivs)
+
